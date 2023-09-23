@@ -1,0 +1,11 @@
+footer{
+    width: max-content;
+    margin: 2% auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer #resetBtn{
+    color: #035E7B;
+    padding: 10px;
+    cursor: pointer;
+}

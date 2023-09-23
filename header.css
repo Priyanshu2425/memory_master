@@ -1,0 +1,15 @@
+header{
+    width: max-content;
+    margin: 2% auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header h1{
+    color: #035E7B;
+}
+
+#msgBox{
+    text-align: center;
+    margin: 2% 0;
+    display: none;
+}
