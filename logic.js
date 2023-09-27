@@ -1,6 +1,6 @@
 var view ={
     createOptions: function(){
-        document.body.style.zoom = "200%";
+        // document.body.style.zoom = "200%";
         var main = document.getElementById("gameBoard");
         main.innerHTML = `
         <table>
@@ -23,13 +23,13 @@ var view ={
         var size = options.indexOf(eventObj.target.id);
         model.currentBoardSize = model.boardSizes[size];
        
-        if(size == 1){
-            document.body.style.zoom = "150%";
-        }
+        // if(size == 1){
+        //     document.body.style.zoom = "150%";
+        // }
 
-        if(size == 2){
-            document.body.style.zoom = "120%";
-        }
+        // if(size == 2){
+        //     document.body.style.zoom = "120%";
+        // }
 
         var boardSizes = model.boardSizes;
 
