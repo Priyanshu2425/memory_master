@@ -53,8 +53,13 @@ var view ={
 
         var columns = document.getElementsByTagName('td');
         for(var i = 0; i < columns.length; i++){
-            columns[i].style.setProperty('height', '50px', 'important');
-            columns[i].style.setProperty('width', '50px', 'important');
+            if(window.innerWidth <= 450 ){
+                columns[i].style.setProperty('height', '40px', 'important');
+                columns[i].style.setProperty('width', '40px', 'important');
+            }else{
+                columns[i].style.setProperty('height', '50px', 'important');
+                columns[i].style.setProperty('width', '50px', 'important');
+            }
             columns[i].onclick = view.revealCard;
         }
 
